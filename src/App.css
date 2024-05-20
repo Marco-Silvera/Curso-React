@@ -1,0 +1,174 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.App-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-position: center;
+  object-fit: cover;
+}
+
+.App-container {
+  position: relative;
+  width: 100%;
+  height: 800px;
+}
+
+.App-button {
+  position: absolute;
+  bottom: 100px;
+  right: 200px;
+  padding: 10px 20px;
+  background-color: rgb(34, 100, 22);
+  color: rgb(201, 206, 146);
+  font-size: 32px;
+}
+
+.Why-container {
+  width: 100%;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.Why-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.Why-title h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  line-height: 50px;
+}
+
+.Why-title h2:nth-child(2) {
+  font-size: 64px;
+  color: rgb(34, 100, 22);
+}
+
+.Why-title h2:nth-child(3) {
+  font-size: 60px;
+  color: rgb(201, 206, 146);
+}
+
+.Why-description {
+  font-size: 24px;
+}
+
+.Why-list {
+  list-style-position: inside;
+}
+
+.Why-list-item {
+  text-indent: 30px;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+}
+
+.darkened-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+}
+
+.image-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  /* Ajusta este valor para controlar la opacidad del ennegrecido */
+  pointer-events: none;
+  /* Para que el fondo negro no interfiera con la interacción */
+}
+
+.overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  /* Centra verticalmente el contenido */
+  align-items: center;
+  /* Centra horizontalmente el contenido */
+  color: white;
+  /* Color del texto, puedes ajustarlo según tus necesidades */
+  padding: 20px;
+}
+
+.image-container-textos {
+  text-align: center;
+}
+
+.image-container-title {
+  font-size: 60px;
+}
+
+.image-container-description {
+  font-size: 32px;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+}
+
+.Circuits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 80px;
+}
+
+.Circuits-title {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.Circuits-container {
+  display: flex;
+  gap: 40px;
+}
+
+.Circuits-item {
+  width: 380px;
+  height: 600px;
+}
+
+.Circuits-item img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-position: center;
+  object-fit: cover;
+}

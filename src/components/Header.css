@@ -1,0 +1,40 @@
+.Header {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+}
+
+.Header-logo {
+    height: 50px;
+}
+
+.Header-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Header-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.Header-list-item a {
+    color: rgb(34, 100, 40);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Header-container-languages {
+    display: flex;
+    gap: 10px;
+}
+
+.Header-img-spain,
+.Header-img-france {
+    height: 40px;
+}
