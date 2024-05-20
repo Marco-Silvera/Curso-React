@@ -5,6 +5,9 @@
     justify-content: center;
     align-items: center;
     gap: 220px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .Header-logo {
