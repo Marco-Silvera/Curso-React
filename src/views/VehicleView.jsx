@@ -1,4 +1,3 @@
-import React from 'react'
 import './VehicleView.css'
 
 function VehicleView({ vehicle }) {

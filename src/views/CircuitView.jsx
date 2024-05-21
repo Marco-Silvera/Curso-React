@@ -1,7 +1,7 @@
 import React from 'react'
 import './CircuitView.css'
 
-function CircuitView({ circuit }) {
+function CircuitView({circuit}) {
     return (
         <div className='CircuitView'>
             <h1>

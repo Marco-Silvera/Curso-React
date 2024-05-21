@@ -1,21 +1,17 @@
 import './App.css'
-import Card from './components/Card'
+
 import Header from './components/Header'
-import ShowHide from './components/ShowHide'
 import ViajeAMedida from './components/ViajeAMedida'
 import Footer from './components/Footer'
+
 // import vehicles from './data/vehicles'
-import circuits from './data/circuits'
+
 
 function App() {
 
-  // const vehiclesList = vehicles.map(v => {
-  //   return <Card title={v.name} description={v.description} />
-  // })
+  
 
-  const circuitsList = circuits.map(c => {
-    return <Card title={c.name} description={c.description} path={c.path} />
-  })
+
 
   return (
     <div className='main-container'>
@@ -49,8 +45,8 @@ function App() {
         </div>
       </section>
 
-      <section class="image-container">
-        <img src="/src/assets/amazonas-bote.webp" alt="Amazonas en bote" class="darkened-image" />
+      <section className="image-container">
+        <img src="/src/assets/amazonas-bote.webp" alt="Amazonas en bote" className="darkened-image" />
         <div className='overlay-content'>
           <div className='image-container-textos'>
             <h3 className='image-container-title'>
@@ -60,7 +56,7 @@ function App() {
               No dejes para mañana el viaje que <br /> puedes hacer hoy, conoce nuestros <br /> más atractivos circuitos.
             </p>
           </div>
-          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3ETVsjQngRQ?si=qrZMIOTf-lJcd_x_&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3ETVsjQngRQ?si=qrZMIOTf-lJcd_x_&amp;controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -167,9 +163,7 @@ function App() {
 
 
       <div className="container">
-        {circuitsList}
       </div>
-      <ShowHide />
     </div>
   )
 }
