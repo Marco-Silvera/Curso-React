@@ -1,0 +1,71 @@
+.Footer {
+    background-color: rgb(34, 100, 40);
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer ul {
+    list-style: none;
+    text-indent: 20px;
+}
+
+.Footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 40px 0;
+    border-bottom: 1px solid white;
+    flex-wrap: wrap;
+}
+
+.Footer-company,
+.Footer-tours,
+.Footer-experience,
+.Footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.Footer-company-list,
+.Footer-tours-list,
+.Footer-experience-list,
+.Footer-contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Footer-title {
+    font-size: 24px;
+}
+
+.Footer-company-list-item a,
+.Footer-tours-list-item a,
+.Footer-experience-list-item a,
+.Footer-contact-list-item a {
+    font-size: 16px;
+    color: white;
+}
+
+.Footer-contact-list-item:nth-child(5) {
+    align-self: center;
+}
+
+.Footer-contact-list-item:nth-child(5) a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer-libro {
+    height: 50px;
+}
+
+.Footer-info {
+    padding: 40px;
+}

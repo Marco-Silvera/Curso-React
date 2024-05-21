@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import vehicles from './data/vehicles.js'
-import VehicleView from './views/VehicleView.jsx'
+// import vehicles from './data/vehicles.js'
+import circuits from './data/circuits.js'
+// import VehicleView from './views/VehicleView.jsx'
+import CircuitView from './views/CircuitView.jsx'
 
 const routes = [
   {
@@ -13,12 +15,18 @@ const routes = [
   }
 ]
 
-vehicles.forEach((vehicle) => {
+circuits.forEach((circuit) => {
   routes.push({
-    path: vehicle.name,
-    element: <VehicleView vehicle={vehicle} />
+    element: <CircuitView circuit={circuit} />
   })
 })
+
+// vehicles.forEach((vehicle) => {
+//   routes.push({
+//     path: vehicle.name,
+//     element: <VehicleView vehicle={vehicle} />
+//   })
+// })
 
 const router = createBrowserRouter(routes)
 

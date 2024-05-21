@@ -3,12 +3,18 @@ import Card from './components/Card'
 import Header from './components/Header'
 import ShowHide from './components/ShowHide'
 import ViajeAMedida from './components/ViajeAMedida'
-import vehicles from './data/vehicles'
+import Footer from './components/Footer'
+// import vehicles from './data/vehicles'
+import circuits from './data/circuits'
 
 function App() {
 
-  const vehiclesList = vehicles.map(v => {
-    return <Card title={v.name} description={v.description} />
+  // const vehiclesList = vehicles.map(v => {
+  //   return <Card title={v.name} description={v.description} />
+  // })
+
+  const circuitsList = circuits.map(c => {
+    return <Card title={c.name} description={c.description} path={c.path} />
   })
 
   return (
@@ -157,10 +163,11 @@ function App() {
       </section>
 
       <ViajeAMedida />
+      <Footer />
 
 
       <div className="container">
-        {vehiclesList}
+        {circuitsList}
       </div>
       <ShowHide />
     </div>
