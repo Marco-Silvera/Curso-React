@@ -2,6 +2,7 @@ import './App.css'
 import Card from './components/Card'
 import Header from './components/Header'
 import ShowHide from './components/ShowHide'
+import ViajeAMedida from './components/ViajeAMedida'
 import vehicles from './data/vehicles'
 
 function App() {
@@ -63,16 +64,100 @@ function App() {
         </h3>
         <section className='Circuits-container'>
           <article className='Circuits-item'>
-            <img src="/src/assets/circuito-1.webp" alt="Circuito1" />
+            <a href="">
+              <img src="/src/assets/circuito-1.webp" alt="Circuito1" />
+              <div className='Circuits-overlay'>
+                <h3 className='Circuits-overlay-title'>
+                  Circuito1
+                </h3>
+              </div>
+            </a>
           </article>
           <article className='Circuits-item'>
-            <img src="/src/assets/circuito-1.webp" alt="Circuito1" />
+            <a href="">
+              <img src="/src/assets/circuito-1.webp" alt="Circuito1" />
+              <div className='Circuits-overlay'>
+                <h3 className='Circuits-overlay-title'>
+                  Circuito2
+                </h3>
+              </div>
+            </a>
           </article>
           <article className='Circuits-item'>
-            <img src="/src/assets/circuito-1.webp" alt="Circuito1" />
+            <a href="">
+              <img src="/src/assets/circuito-1.webp" alt="Circuito1" />
+              <div className='Circuits-overlay'>
+                <h3 className='Circuits-overlay-title'>
+                  Circuito3
+                </h3>
+              </div>
+            </a>
           </article>
         </section>
       </section>
+
+      <section className='Aternatives'>
+        <h3 className='Aternatives-title'>
+          Experiencias Alternativas
+        </h3>
+        <section className='Aternatives-container'>
+          <article className='Aternatives-item'>
+            <a href="">
+              <img src="/src/assets/circuito-1.webp" alt="Aternativa1" />
+              <div className='Circuits-overlay'>
+                <h3 className='Circuits-overlay-title'>
+                  Alternativa1
+                </h3>
+              </div>
+            </a>
+          </article>
+          <article className='Aternatives-item'>
+            <a href="">
+              <img src="/src/assets/circuito-1.webp" alt="Aternativa1" />
+              <div className='Circuits-overlay'>
+                <h3 className='Circuits-overlay-title'>
+                  Alternativa2
+                </h3>
+              </div>
+            </a>
+          </article>
+          <article className='Aternatives-item'>
+            <a href="">
+              <img src="/src/assets/circuito-1.webp" alt="Aternativa1" />
+              <div className='Circuits-overlay'>
+                <h3 className='Circuits-overlay-title'>
+                  Alternativa3
+                </h3>
+              </div>
+            </a>
+          </article>
+        </section>
+      </section>
+
+      <section className='Testimony-container'>
+        <img className='Testimony-img' src="/src/assets/fondo-testimonio.webp" alt="Machu Picchu Maravilla del mundo" />
+        <div className='Testimony-overlay-content'>
+          <div className='Testimony-image-container-textos'>
+            <h3 className='Testimony-image-container-title'>
+              Testimonios
+            </h3>
+            <p className='image-container-description'>
+              Mucho de los turistas quedaron <br /> fascinados, nos cuentan sus experiencias.
+            </p>
+          </div>
+          <div className='Testimony-text'>
+            <p className='Testimony-description'>
+              Tout au long du séjour, nous avons apprécié la <br /> qualite et les compétences de nos guides ainsi que <br /> le professionnalisme de PACHAMAMA, petite <br /> structure souple qui sait s’adapter aux désirs de <br /> ses clients et leur proposer un programme riche et <br /> passionnant.
+            </p>
+            <h3 className='Testimony-title'>
+              Christine GROS
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <ViajeAMedida />
+
 
       <div className="container">
         {vehiclesList}

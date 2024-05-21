@@ -109,7 +109,8 @@ h1 {
   /* Para que el fondo negro no interfiera con la interacción */
 }
 
-.overlay-content {
+.overlay-content,
+.Testimony-overlay-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -126,11 +127,13 @@ h1 {
   padding: 20px;
 }
 
-.image-container-textos {
+.image-container-textos,
+.Testimony-image-container-textos {
   text-align: center;
 }
 
-.image-container-title {
+.image-container-title,
+.Testimony-image-container-title {
   font-size: 60px;
 }
 
@@ -142,7 +145,8 @@ iframe {
   aspect-ratio: 16/9;
 }
 
-.Circuits {
+.Circuits,
+.Aternatives {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,25 +154,87 @@ iframe {
   padding: 80px;
 }
 
-.Circuits-title {
+.Circuits-title,
+.Aternatives-title {
   font-size: 60px;
   text-transform: uppercase;
 }
 
-.Circuits-container {
+.Circuits-container,
+.Aternatives-container {
   display: flex;
   gap: 40px;
 }
 
-.Circuits-item {
+.Circuits-item,
+.Aternatives-item {
+  position: relative;
   width: 380px;
   height: 600px;
 }
 
-.Circuits-item img {
+.Circuits-overlay,
+.Alternatives-overlay {
+  position: absolute;
+  background-color: rgb(34, 100, 22);
+  padding: 10px;
+  color: rgb(201, 206, 146);
+  font-size: 28px;
+  width: 100%;
+  top: 80%;
+  text-align: center;
+}
+
+.Circuits-item img,
+.Aternatives-item img {
   width: 100%;
   height: 100%;
   background-size: cover;
   object-position: center;
   object-fit: cover;
+}
+
+.Testimony-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.Testimony-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  /* Ajusta este valor para controlar la opacidad del ennegrecido */
+  pointer-events: none;
+  /* Para que el fondo negro no interfiera con la interacción */
+
+}
+
+.Testimony-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-position: center;
+  object-fit: cover;
+}
+
+.Testimony-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Testimony-description {
+  font-size: 24px;
+  text-align: center;
+}
+
+.Testimony-title {
+  font-size: 32px;
+  text-align: center;
 }
