@@ -17,7 +17,7 @@ function App() {
     <div className='main-container'>
       <Header />
       <section className='App-container'>
-        <img className='App-img' src="/src/assets/machu-picchu.webp" alt="Machu Picchu Maravilla del mundo" />
+        <img className='App-img' src="/public/machu-picchu.webp" alt="Machu Picchu Maravilla del mundo" />
         <a className='App-button' href="">Ver circuitos</a>
       </section>
 
@@ -46,7 +46,7 @@ function App() {
       </section>
 
       <section className="image-container">
-        <img src="/src/assets/amazonas-bote.webp" alt="Amazonas en bote" className="darkened-image" />
+        <img src="/public/amazonas-bote.webp" alt="Amazonas en bote" className="darkened-image" />
         <div className='overlay-content'>
           <div className='image-container-textos'>
             <h3 className='image-container-title'>
@@ -67,7 +67,7 @@ function App() {
         <section className='Circuits-container'>
           <article className='Circuits-item'>
             <a href="">
-              <img src="/src/assets/circuito-1.webp" alt="Circuito1" />
+              <img src="/public/circuito-1.webp" alt="Circuito1" />
               <div className='Circuits-overlay'>
                 <h3 className='Circuits-overlay-title'>
                   Circuito1
@@ -77,7 +77,7 @@ function App() {
           </article>
           <article className='Circuits-item'>
             <a href="">
-              <img src="/src/assets/circuito-1.webp" alt="Circuito1" />
+              <img src="/public/circuito-1.webp" alt="Circuito1" />
               <div className='Circuits-overlay'>
                 <h3 className='Circuits-overlay-title'>
                   Circuito2
@@ -87,7 +87,7 @@ function App() {
           </article>
           <article className='Circuits-item'>
             <a href="">
-              <img src="/src/assets/circuito-1.webp" alt="Circuito1" />
+              <img src="/public/circuito-1.webp" alt="Circuito1" />
               <div className='Circuits-overlay'>
                 <h3 className='Circuits-overlay-title'>
                   Circuito3
@@ -105,7 +105,7 @@ function App() {
         <section className='Aternatives-container'>
           <article className='Aternatives-item'>
             <a href="">
-              <img src="/src/assets/circuito-1.webp" alt="Aternativa1" />
+              <img src="/public/circuito-1.webp" alt="Aternativa1" />
               <div className='Circuits-overlay'>
                 <h3 className='Circuits-overlay-title'>
                   Alternativa1
@@ -115,7 +115,7 @@ function App() {
           </article>
           <article className='Aternatives-item'>
             <a href="">
-              <img src="/src/assets/circuito-1.webp" alt="Aternativa1" />
+              <img src="/public/circuito-1.webp" alt="Aternativa1" />
               <div className='Circuits-overlay'>
                 <h3 className='Circuits-overlay-title'>
                   Alternativa2
@@ -125,7 +125,7 @@ function App() {
           </article>
           <article className='Aternatives-item'>
             <a href="">
-              <img src="/src/assets/circuito-1.webp" alt="Aternativa1" />
+              <img src="/public/circuito-1.webp" alt="Aternativa1" />
               <div className='Circuits-overlay'>
                 <h3 className='Circuits-overlay-title'>
                   Alternativa3
@@ -137,7 +137,7 @@ function App() {
       </section>
 
       <section className='Testimony-container'>
-        <img className='Testimony-img' src="/src/assets/fondo-testimonio.webp" alt="Machu Picchu Maravilla del mundo" />
+        <img className='Testimony-img' src="/public/machu-picchu.webp" alt="Machu Picchu Maravilla del mundo" />
         <div className='Testimony-overlay-content'>
           <div className='Testimony-image-container-textos'>
             <h3 className='Testimony-image-container-title'>

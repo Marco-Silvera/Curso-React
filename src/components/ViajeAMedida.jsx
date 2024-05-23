@@ -4,7 +4,7 @@ import './ViajeAMedida.css'
 function ViajeAMedida() {
     return (
         <section className='ViajeAMedida-container'>
-            <img className='ViajeAMedida-img' src="/src/assets/viaje-a-tu-medida.webp" alt="Machu Picchu Maravilla del mundo" />
+            <img className='ViajeAMedida-img' src="/public/viaje-a-tu-medida.webp" alt="Machu Picchu Maravilla del mundo" />
             <div className='ViajeAMedida-textos'>
                 <h3 className='ViajeAMedida-title'>
                     Viaja a tu medida
