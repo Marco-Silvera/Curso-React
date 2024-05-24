@@ -59,7 +59,7 @@ function Footer() {
                         <li className='Footer-contact-list-item'><a href="">info@pachamamaturismo.org</a></li>
                         <li className='Footer-contact-list-item'><a href=""><p>Jr. Inca Garcilazo De La Vega 496,</p> <br /><p> San Martín de Porres</p></a></li>
                         <li className='Footer-contact-list-item'><a href="">
-                            <img className='Footer-libro' src="/public/libro-reclamaciones.webp" alt="Libro de reclamaciones" />
+                            <img className='Footer-libro' src="libro-reclamaciones.webp" alt="Libro de reclamaciones" />
                             <p>Libro de reclamaciones</p>
                         </a></li>
                     </ul>

@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className='Header'>
             <a href="">
-                <img className='Header-logo' src="/public/logo.webp" alt="Logo Pachamama Turismo" />
+                <img className='Header-logo' src="logo.webp" alt="Logo Pachamama Turismo" />
             </a>
             <div className='Header-container'>
                 <ul className='Header-list'>
@@ -18,10 +18,10 @@ function Header() {
                 </ul>
                 <div className='Header-container-languages'>
                     <a href="">
-                        <img className='Header-img-spain' src="/public/españa.webp" alt="Bandera Española" />
+                        <img className='Header-img-spain' src="españa.webp" alt="Bandera Española" />
                     </a>
                     <a href="">
-                        <img className='Header-img-france' src="/public/francia.webp" alt="Bandera Francesa" />
+                        <img className='Header-img-france' src="francia.webp" alt="Bandera Francesa" />
                     </a>
                 </div>
             </div>
