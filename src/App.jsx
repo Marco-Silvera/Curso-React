@@ -77,7 +77,7 @@ function App() {
           </article>
           <article className='Circuits-item'>
             <a href="">
-              <img src="circuito1.webp" alt="Circuito1" />
+              <img src="circuito-1.webp" alt="Circuito1" />
               <div className='Circuits-overlay'>
                 <h3 className='Circuits-overlay-title'>
                   Circuito2
