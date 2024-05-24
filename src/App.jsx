@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
 
-  
+
 
 
 
@@ -137,7 +137,7 @@ function App() {
       </section>
 
       <section className='Testimony-container'>
-        <img className='Testimony-img' src="/public/machu-picchu.webp" alt="Machu Picchu Maravilla del mundo" />
+        <img className='Testimony-img' src="./public/fondo-testimonio.webp" alt="Machu Picchu Maravilla del mundo" />
         <div className='Testimony-overlay-content'>
           <div className='Testimony-image-container-textos'>
             <h3 className='Testimony-image-container-title'>
